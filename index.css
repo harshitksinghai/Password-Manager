@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;1,500&display=swap');*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    background-color: brown;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    margin: 0 20px;
+    font-weight: 900;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.logo:hover{
+    color: white;
+}
+
+.container {
+    margin: 30px 120px;
+}
+
+h1, h2, h3 {
+    margin: 10px 0;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+ul li {
+    list-style: none;
+    margin: 0 10px;
+    font-weight: 500;
+}
+
+ul li:hover{
+    color: white;
+    cursor: pointer;
+}
+
+#alert{
+    display: none;
+}
+
+.passwords, .passwords td, .passwords tr {
+    border: 3px solid black;
+    border-collapse: collapse;
+    padding: 5px 10px;
+}
+
+.add-password th{
+    text-align: left;
+}
+
+img{
+    cursor: pointer;
+}
+
+.btn{
+    padding: 5px 10px;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    border-radius: 8px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.btnsm{
+    padding: 3px 10px;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    border-radius: 8px;
+
+    cursor: pointer;
+}
